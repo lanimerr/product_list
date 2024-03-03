@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.product-item {
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-item img {
+  margin-top: 14%;
+  width: 90%;
+  height: auto;
+}
+
+.product-category {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.product-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  padding-bottom: 100px;
+}
